@@ -4,6 +4,7 @@
 ```
 sudo apt install -y mc neovim tmux python3-pip
 sudo pip3 install neovim-remote
+
 ```
 
 ## installation
