@@ -18,7 +18,6 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'edkolev/tmuxline.vim'
     Plug 'mtdl9/vim-log-highlighting'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
