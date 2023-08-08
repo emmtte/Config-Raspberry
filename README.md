@@ -7,7 +7,6 @@ wget -O .tmux.conf https://github.com/emmtte/Config-Raspberry/blob/main/.tmux.co
 wget -O .config/nvim/init.vim https://github.com/emmtte/Config-Raspberry/blob/main/.config/nvim/init.vim
 wget -O .config/mc/mc.ext https://github.com/emmtte/Config-Raspberry/blob/main/.config/mc/mc.ext
 wget -O .local/share/mc/skins/me.ini https://github.com/emmtte/Config-Raspberry/blob/main/.local/share/mc/skins/me.ini
-wget -O .config/nvim/init.vim https://github.com/emmtte/Config-Raspberry/blob/main/.config/nvim/init.vim
 ```
 
 ## Neovim & neovim-remote
