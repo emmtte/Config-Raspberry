@@ -8,7 +8,7 @@ wget -O .config/nvim/init.vim https://raw.githubusercontent.com/emmtte/Config-Ra
 wget -O .config/mc/mc.ext https://raw.githubusercontent.com/emmtte/Config-Raspberry/main/.config/mc/mc.ext
 wget -O .local/share/mc/skins/me.ini https://raw.githubusercontent.com/emmtte/Config-Raspberry/main/.local/share/mc/skins/me.ini
 wget -O boot.sh https://raw.githubusercontent.com/emmtte/Config-Raspberry/main/boot.sh
-echo "tmux attach PI" >> .profile
+echo "tmux attach -t PI" >> .profile
 sh boot.sh
 ```
 
