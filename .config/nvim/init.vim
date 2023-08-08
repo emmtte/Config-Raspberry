@@ -18,10 +18,7 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'edkolev/tmuxline.vim'
     Plug 'mtdl9/vim-log-highlighting'
-
 call plug#end()
-
-inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 :nmap <C-Right> :tabnext<CR>
 :nmap <C-Left> :tabprevious<CR>
