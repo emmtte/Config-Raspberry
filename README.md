@@ -14,6 +14,7 @@ wget -O .local/share/mc/skins/me.ini https://github.com/emmtte/Config-Raspberry/
 ```
 sudo apt install -y neovim git python3-pip
 sudo pip3 install neovim-remote
+update-alternatives --config editor
 NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim
 ```
 
